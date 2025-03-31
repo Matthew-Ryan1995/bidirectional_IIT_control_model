@@ -4,6 +4,8 @@ This is the code to reproduce the results in **Modelling Aedes albopictus manage
 
 # To replicate results
 
+**WARNING: These simulations take signficant time and compute power to run.  Please consider this before running the below scripts.**
+
 1. `code/00_runMe.R` - runs main intervention simulations
   a. `code/create_model_parameters.R` - Creates the model parameters to use in `00_runME.R` based on `code/parameters.xlsx`
   b. `code/create_scenario_parameters.R` - Creates the scenario parameters to run different scenarios in `code/00_runME.R`
